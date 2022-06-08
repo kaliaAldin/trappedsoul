@@ -18,4 +18,5 @@ Robot assembly requirement :
 
 connection :
 
-![Uploading IMG_0954.JPG…]()
+
+![IMG_0954](https://user-images.githubusercontent.com/57135529/172553023-15b83cc3-0312-426a-9587-33195d715652.JPG)
