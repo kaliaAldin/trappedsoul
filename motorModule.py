@@ -5,13 +5,13 @@ GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 print(0)
 
-# SetUp the GPIO out put from the Ras
+# SetUp the GPIO out put from the Rasspi 
 GPIO.setup(29, GPIO.OUT)  # Yellow wire
 GPIO.setup(31, GPIO.OUT)  # White Wire
 GPIO.setup(32, GPIO.OUT)  # ORANGE WIRE
 GPIO.setup(33, GPIO.OUT)  # BROWN wire
 
-
+#creating a class to control the motors 
 class Motor():
     def __init__(self, name, lwheel, rwheel):
         self.name = name
@@ -46,19 +46,24 @@ class Motor():
         GPIO.output(self.rwheelB, False)
         GPIO.output(self.lwheelB, False)
 
-myMotor = Motor ("kalia" , (29,31) , (32,33))
-myMotor.forward()
-time.sleep(3)
-myMotor.breaking()
-time.sleep(3)
-myMotor.backward()
-time.sleep(3)
-myMotor.breaking()
-time.sleep(3)
-myMotor.turnRight()
-time.sleep(3)
-myMotor.breaking()
-time.sleep(3)
-myMotor.turnleft()
-time.sleep(3)
-myMotor.breaking()
+
+def main():
+    myMotor = Motor ("kalia" , (29,31) , (32,33))
+    myMotor.forward()
+    time.sleep(3)
+    myMotor.breaking()
+    time.sleep(3)
+    myMotor.backward()
+    time.sleep(3)
+    myMotor.breaking()
+    time.sleep(3)
+    myMotor.turnRight()
+    time.sleep(3)
+    myMotor.breaking()
+    time.sleep(3)
+    myMotor.turnleft()
+    time.sleep(3)
+    myMotor.breaking()
+
+if __name__ == "__main__":
+    main()
