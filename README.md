@@ -17,6 +17,11 @@ Robot assembly requirement :
 3- raspberry pi 4  https://raspberrypi.dk/en/product/raspberry-pi-4-model-b-starter-kit-2/?currency=EUR
 
 connection :
-
+and the design is inspired by the DIY pepsi canns toy cars from my childhood 
+[Uploading IMG_1109.JPG…]()
+ 
 
 ![IMG_0954](https://user-images.githubusercontent.com/57135529/172553023-15b83cc3-0312-426a-9587-33195d715652.JPG)
+![IMG_1104](https://user-images.githubusercontent.com/57135529/217262637-09d46dfb-03c4-4fa8-ae04-14448ee9e59c.JPG)
+![IMG_1105](https://user-images.githubusercontent.com/57135529/217262659-09c5743f-def9-4fa4-b942-1c905a054a0f.JPG)
+![IMG_1108](https://user-images.githubusercontent.com/57135529/217262699-66aa9f1c-f9fd-4374-8fde-28c65a83c1c6.JPG)
